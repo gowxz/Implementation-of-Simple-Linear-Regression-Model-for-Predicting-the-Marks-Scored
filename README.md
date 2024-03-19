@@ -45,7 +45,23 @@ print(y_test)
 #Graph plot for training data
 plt.scatter(x_train,y_train,color='black')
 plt.plot(x_train,regressor.predict(x_train),color='blue')
-plt.title("Hours vs…  
+plt.title("Hours vs Scores(Training set)")
+plt.xlabel("Hours")
+plt.ylabel("Scores")
+plt.show()
+#Graph plot for test data
+plt.scatter(x_test,y_test,color='black')
+plt.plot(x_train,regressor.predict(x_train),color='red')
+plt.title("Hours vs Scores(Testing set)")
+plt.xlabel("Hours")
+plt.ylabel("Scores")
+plt.show()
+mse=mean_absolute_error(y_test,y_pred)
+print('MSE = ',mse)
+mae=mean_absolute_error(y_test,y_pred)
+print('MAE = ',mae)
+rmse=np.sqrt(mse)
+print("RMSE= ",rmse)  
 */
 ```
 
