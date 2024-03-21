@@ -14,7 +14,7 @@ To write a program to predict the marks scored by a student using the simple lin
 4. 
 
 ## Program:
-```
+`````python
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by:Gowtham S
@@ -63,10 +63,26 @@ print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)  
 */
-```
+`````
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+## Head:
+![Screenshot (39)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/b3b64c80-391b-4438-8e04-9d65a7c70ab2)
+## Tail:
+![Screenshot (42)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/29f455d1-ff6a-4523-b5e5-789722ec2d8a)
+## X and Y values split:
+![Screenshot (41)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/d115a32d-eed2-4638-a89a-1b07c410d80d)
+## Info:
+![Screenshot (40)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/5586c735-74d6-4e41-8497-fe8b695dbd69)
+## Y pred & X test:
+![Screenshot (43)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/359e3c3d-8ef5-415c-bdb3-533e8bca2a48)
+## MSE, MAE, RMSE:
+![Screenshot (44)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/8f2a47fa-6ab0-453c-abc3-81ea9ed86ba2)
+## Training Set:
+![Screenshot (45)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/7ba6f060-0985-4637-a756-916f2f0616b3)
+## Testing Set:
+![Screenshot (46)](https://github.com/hanielreenadr18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/155225915/7b28d097-d148-4b3f-b3c4-2c67d3b3d2b3)
+
 
 
 ## Result:
